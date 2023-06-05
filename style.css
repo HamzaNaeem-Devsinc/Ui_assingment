@@ -1,0 +1,172 @@
+body {
+  font-size: 16px;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#body-c {
+  background-color: rgb(250, 249, 249);
+}
+#banner {
+  background-image: url("hero-img.png");
+  background-position: top -700px right -10px;
+  background-repeat: no-repeat;
+}
+#navbar-button {
+  color: aliceblue;
+  margin-top: 10px;
+}
+#nav-text {
+  padding: 30px 5px;
+
+  color: white;
+}
+#banner-content {
+  padding: 150px 50px;
+}
+#banner-heading {
+  font-size: 46px;
+}
+#banner-sub-heading {
+  color: rgb(126, 126, 126);
+  font-weight: 400;
+}
+#banner-button {
+  padding: 15px 45px;
+  border-radius: 35px;
+  font-weight: bolder;
+  border: 0px;
+  background-color: #fab95b;
+  color: white;
+}
+#fa-icon {
+  color: aliceblue;
+  background-color: #fab95b;
+  border-radius: 100%;
+  padding: 20px;
+}
+#service-b {
+  background-color: rgb(250, 250, 250);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#services-box {
+  padding: 20px;
+
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(226, 226, 226);
+  margin-bottom: 10px;
+}
+#about-picture {
+  width: 100%;
+  height: auto;
+}
+#about-text {
+  margin-top: 15px;
+  color: rgb(113, 113, 113);
+}
+#progres-icon {
+  background-color: white;
+}
+#progress-bar-text {
+  margin-top: 25px;
+  margin-bottom: -1px;
+}
+
+#client-feedback {
+  background-color: #fab95b;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: white;
+}
+#blog-box {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 1px 1px 3px rgb(219, 218, 218);
+}
+#blog-picture {
+  width: 100%;
+  border-radius: 2% 2% 0% 0%;
+}
+
+#formGroupExampleInput {
+  background-color: #fab95b;
+  border: 0px;
+  border-radius: 0%;
+  border-bottom: 2px solid rgb(255, 249, 207);
+  color: white;
+  margin-top: 35px;
+}
+#formGroupExampleInput::placeholder {
+  color: rgb(255, 249, 207);
+  opacity: 0.6; /* Firefox */
+}
+#message-button {
+  padding: 15px 45px;
+  border-radius: 35px;
+  font-weight: bolder;
+  border: 0px;
+  background-color: #3b3b3b;
+  margin-top: 35px;
+  color: white;
+}
+
+.text-areas {
+  height: 250px;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  padding: 30px;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 30px;
+  text-align: center;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #ffe386;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #ffffff;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
