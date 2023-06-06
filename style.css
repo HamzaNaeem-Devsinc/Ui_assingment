@@ -10,13 +10,15 @@ body {
 }
 #banner {
   background-image: url("hero-img.png");
-  background-position: top -700px right -10px;
+  height: 100vh;
+  background-position: center;
   background-repeat: no-repeat;
 }
 #navbar-button {
   color: aliceblue;
-  margin-top: 10px;
+  margin-top: 1px;
 }
+
 #nav-text {
   padding: 30px 5px;
 
